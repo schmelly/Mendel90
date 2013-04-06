@@ -1,0 +1,13 @@
+electronics_assembly:
+Vitamins:
+  4 CS03016    M3 cap screw x 16
+  4 CS03020    M3 cap screw x 20
+  1 KY240W12L  PSU e.g. KY240W12L
+  4 NYLOCM3    Nyloc nut M3
+  1 SANGUINOL  Electronics e.g. Sanguinolou
+ 12 WA3075     Washer M3 x 7 x 0.5
+  4 WS3075     Star washer M3 x 7 x 0.5
+
+Printed:
+  4 pcb_spacer.stl
+

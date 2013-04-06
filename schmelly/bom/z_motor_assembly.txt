@@ -1,0 +1,19 @@
+z_motor_assemblies:
+Vitamins:
+  8 CS03020    M3 cap screw x 20
+  2 CS04016    M4 cap screw x 16
+  4 CS04025    M4 cap screw x 25
+  2 NEMA17475  NEMA17 x 47.5 stepper motor
+  8 NYLOCM3    Nyloc nut M3
+  6 NYLOCM4    Nyloc nut M4
+  8 PS0308     M3 pan screw x 8
+  2 TB7516     Tubing OD 7 ID 5 x 16
+ 16 WA3075     Washer M3 x 7 x 0.5
+ 10 WA4099     Washer M4 x 9 x 0.9
+  8 WS3075     Star washer M3 x 7 x 0.5
+
+Printed:
+  4 z_coupling.stl
+  1 z_motor_bracket_lhs.stl
+  1 z_motor_bracket_rhs.stl
+

@@ -16,7 +16,7 @@ eta = 0.01;                     // small fudge factor to stop CSG barfing on coi
 $fa = 5;
 $fs = 0.5;
 
-glass_thickness = 2;
+glass_thickness = 3;
 
 //
 // Hole sizes
@@ -52,7 +52,7 @@ M8_clearance_radius = 8.4 / 2;
 M8_nut_radius = 15.4 / 2;
 M8_nut_depth = 6.5;
 
-layer_height = 0.4;
+layer_height = 0.25;
 filament_width = layer_height * 1.5;
 min_wall = 2 * filament_width + eta;
 
@@ -93,7 +93,7 @@ Y_carriage_clearance = 2 + bulldog_handle_length(small_bulldog) - (Y_carriage_wi
 Z_clearance = 10;               // How close the top of the object gets to the gantry
 belt_clearance = 0.2;           // clearance of belt clamp slots
 
-pulley_inner_radius = (14.4 / 2) - belt_thickness(T5x6); // measured from outer diameter
+pulley_inner_radius = (14.4 / 2) - belt_thickness(HTD_3M_6); // measured from outer diameter
 
 
 X_bar_dia = X_bearings[2];      // rod sizes to match the bearings

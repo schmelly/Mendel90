@@ -7,8 +7,9 @@
 //
 // Belt model
 //
-T5x6 =  [5, 6,  2.25];
-T5x10 = [5, 10, 2.25];
+T5x6     = [5, 6,  2.25];
+T5x10    = [5, 10, 2.25];
+HTD_3M_6 = [3, 6,  2.4];
 
 function belt_pitch(type) = type[0];
 function belt_width(type) = type[1];

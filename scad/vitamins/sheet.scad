@@ -15,14 +15,15 @@
 
 //		   [ Code, Description, Thickness, Color, Soft]
 
-MDF6     = [ "MD", "MDF sheet",     6, MDF_brown, true];	// ~1/4"
-MDF10    = [ "MD", "MDF sheet",    10, MDF_brown, true];	// ~3/8"
-MDF12    = [ "MD", "MDF sheet",    12, MDF_brown, true];	// ~1/2"
-PMMA6    = [ "AC", "Acrylic sheet", 6, acrylic_clear, false];	// ~1/4"
-PMMA8    = [ "AC", "Acrylic sheet", 8, acrylic_clear, false];	// ~5/16"
-PMMA10   = [ "AC", "Acrylic sheet",10, acrylic_clear, false];	// ~3/8"
-glass    = [ "GL", "Glass sheet",   glass_thickness, glass_clear, false];
-DiBond   = [ "DB", "Dibond sheet",  3, dibond_grey, false];
+MDF6      = [ "MD", "MDF sheet",     6, MDF_brown, true];	// ~1/4"
+MDF10     = [ "MD", "MDF sheet",    10, MDF_brown, true];	// ~3/8"
+MDF12     = [ "MD", "MDF sheet",    12, MDF_brown, false];	// ~1/2"
+PMMA6     = [ "AC", "Acrylic sheet", 6, acrylic_clear, false];	// ~1/4"
+PMMA8     = [ "AC", "Acrylic sheet", 8, acrylic_clear, false];	// ~5/16"
+PMMA10    = [ "AC", "Acrylic sheet",10, acrylic_clear, false];	// ~3/8"
+glass     = [ "GL", "Glass sheet",   glass_thickness, glass_clear, false];
+DiBond    = [ "DB", "Dibond sheet",  3, dibond_grey, false];
+DiBond2mm = [ "DB", "Dibond sheet",  2, dibond_grey, false];
 
 function sheet_thickness(type) = type[2];
 function sheet_is_soft(type) = type[4];
